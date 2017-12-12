@@ -1,0 +1,145 @@
+html,body{
+    font-size: 16px;
+}
+.header{
+    width: 37.5rem;
+    height: 33.9rem;
+    background: url("../images/header.png") center no-repeat;
+    background-size: cover;
+}
+.content1{
+    position: relative;
+    padding: 0 1.25rem;
+    width: 37.5rem;
+    height: 41.75rem;
+    background-color: #e5f2e9;
+}
+.content1 ul li{
+    display: block;
+    width: 12rem;
+    line-height: 3.746938rem;
+    box-sizing: border-box;
+    border: 1px solid #2a8540;
+    border-right: none;
+    text-align: center;
+    font-size: 2em;
+    color: #7d7d7d;
+    background-color: #bfedca;
+}
+.content1 ul li:nth-child(1),.content2 ul li:nth-child(1){
+    font-size: 2.1em;
+    color: #fff;
+    background: url("../images/tabBtn.png") center no-repeat;
+    background-size: cover;
+}
+.content1 div{
+    position: absolute;
+    top:0;
+    right: 1.25rem;
+    width: 23.1rem;
+    height: 41.75rem;
+    background: url("../images/conTab1.png")center no-repeat;
+    background-size: cover;
+}
+.right p{
+    margin-left: 2.9rem;
+    font-size: 1.875em;
+    line-height: 3em;
+    color: #666666;
+}
+.right p:nth-child(2){
+    margin-top: 6.5rem;
+}
+.content2 .right p{
+    line-height: 2.5em;
+}
+.content2 .right p:nth-child(2){
+    margin-top: 6rem;
+}
+.right p a{
+    font-size: 2em;
+    color: #ffc300;
+}
+.right p:nth-child(4) a,.right p:nth-child(5) a{
+    color: #f96254;
+}
+.content1 div .title{
+    margin-left: 0;
+    position: absolute;
+    right:4rem;
+    font-size: 3.125em;
+    color: #2a8540;
+}
+.middle{
+    width: 37.5rem;
+    height: 25.3rem;
+    background: url("../images/middleBg.png") center no-repeat;
+    background-size: cover;
+}
+.middle span,.footer span{
+    display: inline-block;
+    margin-top: 2rem;
+    width: 14.9rem;
+    height: 4.3rem;
+}
+.middle span:nth-child(1){
+    margin-left: 2.8rem;
+    background: url("../images/middleBtn-L.png") center no-repeat;
+    background-size: cover;
+}
+.middle span:nth-child(2){
+    margin-left: 2rem;
+    background: url("../images/middleBtn-R.png") center no-repeat;
+    background-size: cover;
+}
+.content2{
+    position: relative;
+    padding: 0 1.25rem;
+    width: 37.5rem;
+    height: 30.2rem;
+    background-color: #e5f2e9;
+}
+.content2 ul li{
+    display: block;
+    width: 12rem;
+    line-height: 4.24rem;
+    box-sizing: border-box;
+    border: 1px solid #2a8540;
+    border-right: none;
+    text-align: center;
+    font-size: 2em;
+    color: #7d7d7d;
+    background-color: #bfedca;
+}
+.content2 div{
+    position: absolute;
+    top:-0.05rem;
+    right: 1.25rem;
+    width: 23.1rem;
+    height: 30.2rem;
+    background: url("../images/conTab2.png")center no-repeat;
+    background-size: cover;
+}
+.content2 div .title{
+    margin-left: 0;
+    position: absolute;
+    right:4rem;
+    font-size: 3.125em;
+    color: #2a8540;
+}
+.footer{
+    width: 37.5rem;
+    height: 42.4rem;
+    background: url("../images/footer.png") center no-repeat;
+    background-size: cover;
+}
+.footer span:nth-child(1){
+    margin-left: 2.8rem;
+    background: url("../images/middleBtn-L.png") center no-repeat;
+    background-size: cover;
+}
+.footer span:nth-child(2){
+    margin-left: 2rem;
+    background: url("../images/middleBtn-R.png") center no-repeat;
+    background-size: cover;
+}
